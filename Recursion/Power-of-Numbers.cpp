@@ -1,5 +1,7 @@
-
-class Solution{
+#include <iostream>
+using namespace std;
+class Solution
+{
     public:
     //You need to complete this fucntion
     // Define the modulo constant
@@ -16,7 +18,6 @@ class Solution{
         }
         return rev_num;
     }
-
     // Function to perform modular exponentiation
     long long power(long long N, long long R)
     {
@@ -33,23 +34,20 @@ class Solution{
         }
         return result;
     }
-
     // Function to be completed
     long long pow(int N, int R) 
     {
     return power(N, R);
     }
-
+}
 // Main function for testing
-int main() {
+int main() 
+{
     int N = 12;
     int R = reverseNumber(N);
     cout << pow(N, R) << endl;
-    
     N = 2;
     R = reverseNumber(N);
     cout << pow(N, R) << endl;
-    
     return 0;
-}
 };
