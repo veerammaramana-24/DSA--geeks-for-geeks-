@@ -39,7 +39,7 @@ class Solution
     {
     return power(N, R);
     }
-}
+};
 // Main function for testing
 int main() 
 {
